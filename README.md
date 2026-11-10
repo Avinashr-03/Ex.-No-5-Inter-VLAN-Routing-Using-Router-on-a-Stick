@@ -86,11 +86,14 @@ Router(config)# interface gigabitethernet0/0<br>
 Router(config-if)# no shutdown<br>
 ________________________________________
 # Output (Screenshots)
-•	VLAN configuration on the switch<br>
-•	Router subinterface configuration<br>
-•	PC IP settings<br>
-•	Successful ping between PCs in different VLANs after routing<br>
-•	Successful ping between PCs in the same VLAN<br>
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/acc2d481-fbb7-4b39-a4c7-f0fd870fadb5" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/5ee580cd-bdae-43b0-955d-eab3ba30c6ae" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/dbb2c9e4-ce7a-43c7-9b51-bf0353f6d642" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/afaf3461-f5e8-4695-aa67-92c11d70df53" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/f1d779cf-8611-46bf-8f2a-967a8514d623" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/c393a329-3db3-4aad-9e54-ec92e47f9845" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/0d1c9752-6ea3-4ff2-ad6b-9d5bf31c433c" />
+
 ________________________________________
 # Result
 Inter-VLAN routing was successfully configured using the Router-on-a-Stick method. PCs in different VLANs could communicate through the router.
