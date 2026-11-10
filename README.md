@@ -1,5 +1,5 @@
 # Ex. No: 5 Inter-VLAN Routing Using Router-on-a-Stick
-# Date:
+# Date:10-11-2026
 ________________________________________
 # Objective
 To configure Inter-VLAN routing using a single router interface with subinterfaces (Router-on-a-Stick) so that hosts in different VLANs can communicate with each other.
@@ -86,11 +86,14 @@ Router(config)# interface gigabitethernet0/0<br>
 Router(config-if)# no shutdown<br>
 ________________________________________
 # Output (Screenshots)
-•	VLAN configuration on the switch<br>
-•	Router subinterface configuration<br>
-•	PC IP settings<br>
-•	Successful ping between PCs in different VLANs after routing<br>
-•	Successful ping between PCs in the same VLAN<br>
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/02ca7171-2cba-433d-bfeb-8dfab9c9cd34" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/bba2f918-1aa1-4b9a-9c9f-0a87e672edf8" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/08b53573-cb7a-4708-a9fa-fe92b58523a3" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/fad6fa95-3c01-42f2-a1ef-a4373f212270" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/d862aeb2-fcb2-40c2-834b-051865a68198" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/b170b1ad-b44a-4739-8dfe-da8b9918580b" />
+
+
 ________________________________________
 # Result
 Inter-VLAN routing was successfully configured using the Router-on-a-Stick method. PCs in different VLANs could communicate through the router.
